@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inline & Internal CSS</title>
+<style>
+p { color: blue; font-size: 16px; }
+</style>
+</head>
+<body>
+
+<h2 style="color:red;">Inline CSS Heading</h2>
+<p>Internal CSS Paragraph</p>
+<p style="color:green;">Inline CSS Paragraph</p>
+
+</body>
+</html>
