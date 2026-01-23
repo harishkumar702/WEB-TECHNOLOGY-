@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Slider</title>
+<style>
+.slider { width:300px; margin:auto; }
+img { width:100%; display:none; }
+#s1:checked ~ .imgs .i1,
+#s2:checked ~ .imgs .i2,
+#s3:checked ~ .imgs .i3 { display:block; }
+</style>
+</head>
+<body>
+
+<div class="slider">
+  <input type="radio" name="slide" id="s1" checked>
+  <input type="radio" name="slide" id="s2">
+  <input type="radio" name="slide" id="s3">
+
+  <div class="imgs">
+    <img src="img1.jpg" class="i1">
+    <img src="img2.jpg" class="i2">
+    <img src="img3.jpg" class="i3">
+  </div>
+</div>
+
+</body>
+</html>
