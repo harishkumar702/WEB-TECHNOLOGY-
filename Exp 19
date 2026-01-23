@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Portal</title>
+<style>
+body{font-family:Arial;}
+.header{background:darkblue;color:white;padding:10px;}
+.job{border:1px solid black;padding:10px;margin:10px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Job Portal</h1>
+</div>
+
+<div class="job">
+<h3>Software Engineer</h3>
+<p>Location: Chennai</p>
+</div>
+
+<div class="job">
+<h3>Web Developer</h3>
+<p>Location: Bangalore</p>
+</div>
+
+</body>
+</html>
