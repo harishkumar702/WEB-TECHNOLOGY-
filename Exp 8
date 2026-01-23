@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Number Object</title>
+</head>
+<body>
+
+<h2>JavaScript Number Operations</h2>
+
+<p id="output"></p>
+
+<script>
+let num = 12.34567;
+
+let exponential = num.toExponential(2);
+let fixedValue = num.toFixed(2);
+let numberString = num.toString();
+let negativeInfinity = Number.NEGATIVE_INFINITY;
+
+document.getElementById("output").innerHTML =
+    "Exponential Value: " + exponential + "<br>" +
+    "Fixed Decimal: " + fixedValue + "<br>" +
+    "Number to String: " + numberString + "<br>" +
+    "Negative Infinity: " + negativeInfinity;
+</script>
+
+</body>
+</html>
