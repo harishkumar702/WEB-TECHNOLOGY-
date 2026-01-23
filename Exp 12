@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internal CSS</title>
+<style>
+body { font-family: Arial; }
+h1 { color: darkblue; }
+p { color: green; }
+.box { border:2px solid black; padding:10px; width:200px; }
+</style>
+</head>
+<body>
+
+<h1>Internal CSS Example</h1>
+<p>This is a paragraph</p>
+<div class="box">Div Element</div>
+
+</body>
+</html>
